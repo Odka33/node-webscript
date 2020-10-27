@@ -1,0 +1,27 @@
+{
+  "name": "node-webscript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.15.1",
+    "dateformat": "^3.0.3",
+    "fs": "^0.0.1-security",
+    "inquirer": "^5.2.0",
+    "luxon": "^1.2.0",
+    "moment": "^2.22.1",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "monitor": "./index.js"
+  },
+  "author": "",
+  "license": "ISC"
+
+}
